@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário com Banco de Dados</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="/enviar" method="POST">
+    <h1>Cadastro</h1>
+    
+    <div class="form-campos">
+      <input type="text" name="nome" placeholder="Nome" required>
+      <input type="email" name="email" placeholder="E-mail" required>
+      <input type="text" name="cpf" placeholder="CPF" required>
+      <input type="text" name="endereco" placeholder="Endereço" required>
+
+      <button type="submit">Enviar</button>
+    </div>
+  </form>
+</body>
+</html>
